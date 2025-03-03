@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "rest_framework_simplejwt",
     "django_filters",
-    "apps.todo",
+    "apps.todo_list",
     'ckeditor',
 ]
 
@@ -148,4 +148,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-AUTH_USER_MODEL = "todo.User"
+AUTH_USER_MODEL = "todo_list.User"
